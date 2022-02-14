@@ -37,7 +37,7 @@ const app = new Vue(
                 this.input = '';
             },
 
-            removeTodo() {
+            removeTodo(index) {
                 this.todos.splice(index, 1);
             },
 
